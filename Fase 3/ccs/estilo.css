@@ -1,0 +1,75 @@
+
+
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    color: black;
+}
+
+.navegacion{
+    background-color: rgb(215, 238, 209);
+    padding: 30px;
+}
+
+.contenido{
+    background-color: coral;
+    padding: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.articulos{
+    background-color: gray;
+    padding: 30px;
+    grid-column: 2/5;
+}
+.lateral{
+    background-color: darksalmon;
+    padding: 30px;
+    grid-column: 1/2;
+
+}
+.piedepagina{
+    background-color: rgb(198, 243, 243);
+    padding: 30px;
+
+}
+.menu{display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.menu li a:hover{
+    background-color: chocolate;
+
+}
+.menu li ul{
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover > ul{
+    display: block;
+}
+.menu li ul li{
+    position: relative;
+}
+.menu li ul li{
+    right: 140px;
+}
+.menu
+    li a{
+        background-color: rgb(215, 238, 209);
+        color: rgb(0, 0, 0);
+        text-decoration: none;
+        padding: 15px 80px;
+        display: block;
+
+    }
