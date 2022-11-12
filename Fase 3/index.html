@@ -5,38 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MisitioWeb</title>
     <link rel="stylesheet" href="ccs/estilo.css">
 </head>
 
 <body>
-    <header class="encabezado">
-        <img src="img/logo.png" alt="logo de sitio" height="150px" width="200px">
-
-        <h1>
-             <center>DISEÑOS DE SITIOS WEB FRAMEWORKS<br>CSS POSICIONAMIENTO WEB</center>
-        </h1>
-        <div>
-            <h4><img src="img/logo1.png" alt="logo1"height="150" width="200"></h4>
+    <header>
+        <div class="headercontainer">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo de sitio">
+            </div>
+            <div class="title">
+                    <h1>DISEÑOS DE SITIOS WEB FRAMEWORKS</h1>
+                    <h2>CSS POSICIONAMIENTO WEB</h2>
+            </div>
+            <div class="logo">
+                <img src="img/logo1.png" alt="logo1">
+            </div>
         </div>
     </header>
     
-   
     <nav>
         <ul class="menu">
-            <li> <a href="index.html">INICIO</a><li>
+            <li> 
+                <a href="index.html">INICIO</a>
+            </li>
     
-            <li>TEMAS
+            <li> <a href="">TEMAS</a>
                 <ul>
-                    <li><a href="Tema1.html">Tema 1</a></li>
-                    <li><a href="">Tema 2</a></li>
+                    <li><a href="Tema1.html">TEMA 1</a></li>
+                    <li><a href="Tema2.html">TEMA 2</a></li>
                 </ul>
     
             </li>
             <li>RECURSOS DIGITALES
                 <ul>
                     <li><a href="recursos.html">RECURSO 1</a></li>
-                    <li><a href="">RECURSO 2</a></li>
+                    <li><a href="recursos2.html">RECURSO 2</a></li>
                 </ul>
             </li> 
             <li>APRENDIZAJES
@@ -45,133 +50,144 @@
                     <li><a href="">ACTIVIDAD 1</a></li>
                 </ul>
             </li>
-            <li>ACERCA DE</li>
+            <li><a href="acercade.html">ACERCA DE MI</a></li>
         </ul>
     </nav>
+
     <main class="contenido">
-        <aside class="lateral">
-            <a class="twitter-timeline" data-width="800" data-height="1500" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </aside>
+        <section class="social">
+            <aside class="lateral">
+                <a class="twitter-timeline" data-width="100%" data-height="1800px" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </aside>
+        </section>
+
         <section class="articulos">
+            <article>
+                <div class="article-container">
+                    <div class="article-title">
+                        <h2>PROPOSITO</h2>
+                    </div>
+                    <div class="parrafo">
+                        <p>
+                            El proposito de este sitio web es fomentar el aprendizaje de diseño de sitios web enfocados en el
+                            uso de Frameworks CSS, Posicionamiento Web
+                        </p>
+                    </div>
+                </div>
+            </article>
 
             <article>
-               
-                <section>
-                    <center>
-                        <h3>PROPOSITO</h3>
-                    </center>
-                    <center>
-                        <P>El proposito de este sitio web es fomentar el aprendizaje de diseño de sitios web enfocados en el
-                        uso de Frameworks CSS, Posicionamiento Web</P>
-                    </center>
-                    
-
-                    <hr>
-
-                    <article>
-
-                        
-
-                        <center>
-                            <img src="img/css.png" alt="css" height="200px" width="800px">
-                        </center>
-
-                        <center>
-                            <h1>Frameworks CSS</h1>
-                        </center>
-
-                        <center>
-                            <h3>Definicion</h3>
-                        </center>
-
-
-                        <center>
+                <div class="article-container">
+                    <div class="article-title">
+                        <h2>Frameworks CSS</h2>
+                        <h3>Definicion</h3>
+                    </div>
+                    <div class="parrafo">
+                        <p>
                             Un framework de CSS, es una biblioteca de estilos visuales genericos que puede ser usada para
                             implementar diseños web,lo cual aportan una serie de utilidades que pueden ser aprovechadas frecuentemente en los
                             distintos diselos web, tales como componentes, cuadros de dialogo, tablas, carrucel de imagenes entre otros, lo cual
                             los mas usados son, uikit framework, Foundation, Bulma, Semantic UI.
-                        </center>
-                        <center>
-                            <h3>VENTAJAS DE USAR UN FRAMEWORK CSS</h3>
-                        </center>
-                       
-                            <P>* Acelebra el desarrollo de tus paginas. <br>
-                                * Facilita el trabajo en equipo. <br>
-                                * Garantiza la compatividad entre los distintos navegadores. <br>
-                                * Son mantenidos y mejorados por la comunidad. <br>
-                            </P>
-                        
-                        <center>
-                            <h3>DESVENTAJAS</h3>
-                        </center>
-                        <P>* Hace la carga de tus paginas mas lenta añade cosas a tu proyecto que no vas a usar. <br>
-                            * Te lleva a diseñar a diseñar paginas muy similares a todas las demas hechas con este
-                            framework. <br>
-                            * Tienes que aprender a usarlos y ingnorar los fundamentos de CSS. <br>
-                        </P>
-
-
                         </p>
-
-                        <hr>
-                    
-                        <center><img src="img/seo.jpg" alt="seo" height="200px" width="800px"></center>
-                        <center><H1>Posicionamiento Web</H1></center>
-
-                        <center>
-                            <h3>Definicion</h3>
-                        </center>
-
-
-                        <center>
-                            <p>El posicionamiento en buscadores, optimización en motores de búsqueda o SEO, es un conjunto
-                               de acciones orientadas a mejorar el posicionamiento de un sitio web en la lista de resultados de Google, Bing, u otros
-                               buscadores de internet.
-                            <p>
-                        </center>
-
-                        <center><h3>VENTAJAS DE USAR UN POSECIONAMIENTO WEB</h3></center>
-                       
-                            <P>* Alta rentabilidad a largo plazo. <br>
-                                * Influye los contenidos de la web su actualización y su estructura. <br>
-                                * Atrae trafico calificado. <br>
-                                * La inversión es estable e independiente al numero de visitas. <br>
-                                * Solo honorarios SEO. <br>
-                                * Los usuarios hace mas facilmente click en los resultados organicos que en los
-                                patrocinados. <br>
-                            </P>
-                       
-
-                        <center><h3>DESVENTAJAS DE USAR UN POSECIONAMIENTO WEB</h3></center>
-                       
-                            <P>* Resultados a medio o largo plazo. <br>
-                                * Solo es posible posicionar un reducido numero de palabras claves. <br>
-                                * Google elige la landing page. <br>
-                                * No podemos determinar el mensaje. <br>
-                                * No se pueden predecir ni garantizar resultados. <br>
-                                * No es posible segmentar. <br>
-    
-                            </P>
-                        
-
-                        </p>
-                        <hr>
-                    </article>
-                </section>
-                <hr>
-
+                    </div>
+                    <div class="article-image"> 
+                        <div>
+                            <img src="img/css.png" alt="css">
+                        </div>
+                    </div>
+                </div>
             </article>
 
+            <article>
+                <div class="article-container">
+                    <div class="article-title">
+                        <h2>VENTAJAS DE USAR UN FRAMEWORK CSS</h2>
+                    </div>
+                    <div class="parrafo">
+                        <ul>
+                            <li>Acelebra el desarrollo de tus paginas.</li>
+                            <li>Facilita el trabajo en equipo.</li>
+                            <li>Garantiza la compatividad entre los distintos navegadores.</li>
+                            <li>Son mantenidos y mejorados por la comunidad.</li>
+                        </ul>
+    
+                    </div>
+                    <div> 
+                         <h3>DESVENTAJAS</h3>
+                    </div>
+                    <div class="parrafo">
+                        <P>
+                            <ul>
+                                <li>Hace la carga de tus paginas mas lenta añade cosas a tu proyecto que no vas a usar.</li>
+                                <li>Te lleva a diseñar a diseñar paginas muy similares a todas las demas hechas con este
+                                    framework.</li>
+                                <li>Tienes que aprender a usarlos y ingnorar los fundamentos de CSS.</li>
+                            </ul>
+                        </P>
+                    </div>
+                    <div class="article-image"> 
+                        <img src="img/seo.jpg" alt="seo">
+                    </div>
+                </div>
+            </article>
+
+            <article>
+                <div class="article-container">
+                    <div class="article-title">
+                        <h2>Posicionamiento Web</h2>
+                        <h3>Definicion</h3>
+                    </div>
+                    <div class="parrafo">
+                        <p> El posicionamiento en buscadores, optimización en motores de búsqueda o SEO, es un conjunto
+                            de acciones orientadas a mejorar el posicionamiento de un sitio web en la lista de resultados de Google, Bing, u otros
+                            buscadores de internet.
+                         <p>
+    
+                    </div>
+                    <div> 
+                        <h3>VENTAJAS DE USAR UN POSECIONAMIENTO WEB</h3>
+                    <div class="parrafo">
+                        <P>
+                            <ul>
+                                <li>Alta rentabilidad a largo plazo.</li>
+                                <li>Influye los contenidos de la web su actualización y su estructura.</li>
+                                <li>Solo honorarios SEO.</li>
+                                <li>Los usuarios hace mas facilmente click en los resultados organicos que en los
+                                    patrocinados.</li>
+                            </ul>
+                        </P>
+                    </div>
+                    <div> 
+                        <h3>DESVENTAJAS DE USAR UN POSECIONAMIENTO WEB</h3>
+                    </div>
+                    <div class="parrafo">
+                        <P>
+                            <ul>
+                                <li>Resultados a medio o largo plazo.</li>
+                                <li>Solo es posible posicionar un reducido numero de palabras claves.</li>
+                                <li>Google elige la landing page.</li>
+                                <li>No podemos determinar el mensaje.</li>
+                                <li>No se pueden predecir ni garantizar resultados.</li>
+                                <li>No es posible segmentar.</li>
+                            </ul> 
+                        </P>
+                    </div>
+                </div>
+            </article>
+
+        </section>
+
     </main>
-    <FOOter class="piedepagina">
-        <center>
-            <p>Correo Del Autor:carrillojavier2194@gmail.com <br>
-                Skype: Javier Carrillo Bermudez <br>
-                Fecha de Actualización: 10 Octubre de 2022
-            </p>
-        </center>
+
+    <footer>
+        <div class="piedepagina">
+            <p>Correo Del Autor:carrillojavier2194@gmail.com</p>
+            <p>Skype: Javier Carrillo Bermudez</p>
+            <p>Fecha de Actualización: 10 Octubre de 2022</p>
+           
+        </div>
         
-    </FOOter>
+    </footer>
 
 </body>
 
